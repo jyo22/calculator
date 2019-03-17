@@ -9,14 +9,14 @@
         Integer x = in.nextInt();
         System.out.println("enter 2nd integer : ");
         Integer y = in.nextInt();
-        Main m=new Main();
-        Integer A = m.add(x,y);
+        Calculator cal = new Calculator();
+        Integer A = cal.add(x,y);
         System.out.println("Addition of two integers"+x+ "and"+y+ "= " + A);
-        Integer S = m.sub(x,y);
+        Integer S = cal.sub(x,y);
         System.out.println("subtraction of two integers"+x+ "and"+y+ "= " + S);
-        Integer M = m.mul(x,y);
+        Integer M = cal.mul(x,y);
       	System.out.println("multiplication of two integers"+x+ "and"+y+ "= " + M);
-      	Float D = m.div(x,y);
+      	Float D = cal.div(x,y);
         System.out.println("division of two integers"+x+ "and"+y+ "= " + D);
 	}
 }
